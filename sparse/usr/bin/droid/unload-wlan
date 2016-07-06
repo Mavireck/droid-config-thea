@@ -1,0 +1,4 @@
+#!/bin/sh
+ifconfig wlan0 down
+modprobe -r pronto_wlan
+modprobe -r wlan
